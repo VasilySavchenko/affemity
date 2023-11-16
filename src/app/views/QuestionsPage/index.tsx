@@ -58,7 +58,7 @@ const QuestionsPage = () => {
 									toggleCheckbox={toggleCheckbox}/>)
 						}
 			</div>
-			<div className="questions__block">
+			<div className="questions__block questions__btn">
 				<Button isDisable={!questions.length} title={"Continue"} onClick={() => nav("/email")}/>
 			</div>
 		</div>
