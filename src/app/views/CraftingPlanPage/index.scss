@@ -1,0 +1,15 @@
+@import "@/index.scss";
+
+.crafting-plan {
+
+    &__title {
+        margin-top: 1.2rem;
+        margin-bottom: 1.2rem;
+        color: $mainBlackColor;
+        text-align: center;
+        font-size: 2.5rem;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 110%;
+    }
+}

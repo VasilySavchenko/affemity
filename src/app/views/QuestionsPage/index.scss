@@ -1,0 +1,25 @@
+@import "@/index.scss";
+
+.questions {
+    @include viewsContainer;
+
+    &__block {
+        width: 100%;
+
+        & h2 {
+            margin-top: 2.4rem;
+
+            @include title;
+        }
+
+        & p {
+            margin-top: 1.2rem;
+            color: $mainBlackColor;
+            text-align: center;
+            font-size: 1.2rem;
+            font-style: normal;
+            font-weight: 300;
+            line-height: 120%;
+        }
+    }
+}

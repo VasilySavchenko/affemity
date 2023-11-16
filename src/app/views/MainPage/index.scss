@@ -1,0 +1,69 @@
+@import "@/index.scss";
+
+.main-page {
+    margin-top: 1.7rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+
+    & h2 {
+        @include title;
+
+        & strong {
+            color: $darkBlueColor;
+        }
+    }
+
+    & p {
+        margin-top: 1rem;
+        color: $mainBlackColor;
+        text-align: center;
+        font-size: 1.6rem;
+        font-style: normal;
+        font-weight: 300;
+        line-height: 120%;
+    }
+
+    &__wrapper {
+
+        & h3 {
+            color: $mainBlackColor;
+            text-align: center;
+            font-size: 1.8rem;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 110%;
+        }
+    }
+
+    &__container {
+        margin-top: 1.2rem;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        &__btn {
+            width: 13rem;
+            border-radius: 1rem;
+            border: 0.1rem solid #d2cfdf;
+            padding: 1.4rem 1rem;
+            text-align: center;
+            font-size: 1.4rem;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 120%;
+            cursor: pointer;
+            color: $mainBlackColor;
+            background: $mainWhiteColor;
+
+            &:first-child {
+                margin-right: 1.2rem;
+            }
+
+            &:hover {
+                border-color: $darkBlueColor;
+            }
+        }
+    }
+}

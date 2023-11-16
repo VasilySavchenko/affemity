@@ -1,0 +1,21 @@
+@keyframes infinite-scroll {
+
+    0% {
+        transform: translateX(0);
+    }
+
+    30%,
+    25% {
+        transform: translateX(-100%);
+    }
+
+    60%,
+    65% {
+        transform: translateX(-200%);
+    }
+
+    95%,
+    100% {
+        transform: translateX(-299.8%);
+    }
+}

@@ -1,0 +1,11 @@
+.container {
+    width: 27.2rem;
+    height: 16.2rem;
+    margin-top: 6rem;
+    margin-bottom: 8.2rem;
+
+    & img {
+        height: 100%;
+        width: 100%;
+    }
+}

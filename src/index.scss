@@ -1,0 +1,48 @@
+@import "@static/styles/_mixins.scss";
+@import "@static/styles/_reset.scss";
+@import "@static/styles/_variables.scss";
+@import "@static/styles/_animation.scss";
+
+html {
+    font-size: calc(100vw / 320 * 10);
+}
+
+body {
+    font-family: "Noutino", sans-serif;
+    position: absolute;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    background-color: #faf9ff;
+}
+
+@font-face {
+    font-family: "Noutino";
+    font-style: normal;
+    font-weight: 700;
+    src: url("@/app/static/fonts/Nunito-Bold.woff2") format("woff2");
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Noutino";
+    font-style: normal;
+    font-weight: 600;
+    src: url("@/app/static/fonts/Nunito-SemiBold.woff2") format("woff2");
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Noutino";
+    font-style: normal;
+    font-weight: 300;
+    src: url("@/app/static/fonts/Nunito-Light.woff2") format("woff2");
+    font-display: swap;
+}
+
+@media screen and (min-width: $desktopBreakPoint) {
+
+    html {
+        font-size: calc(100vw / 1280 * 12);
+    }
+}

@@ -1,0 +1,55 @@
+@import "@/index.scss";
+
+.rating-container {
+    display: flex;
+
+    &__wrapper {
+        display: flex;
+        margin-right: 0.8rem;
+    }
+
+    &__block {
+        width: 1.6rem;
+        height: 1.6rem;
+        margin-right: 0.2rem;
+
+        &__item {
+            background: lightgray;
+            position: relative;
+
+            &:before {
+                top: 0.3rem;
+                left: 0.3rem;
+                color: $mainWhiteColor;
+                content: "\2605";
+                position: absolute;
+            }
+        }
+    }
+
+    &__des {
+        margin-top: 0.2rem;
+        color: #666;
+        font-size: 1.2rem;
+        font-style: normal;
+        font-weight: 300;
+        line-height: 120%;
+    }
+}
+
+.rating-square {
+    height: 1.6rem;
+    background-color: lightgray;
+}
+
+.rating-square.full {
+    background-color: #459245;
+}
+
+.star {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}

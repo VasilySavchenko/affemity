@@ -1,0 +1,18 @@
+@mixin title {
+    margin-top: 1.2rem;
+    color: #111;
+    font-family: "Noutino", sans-serif;
+    text-align: center;
+    font-size: 2.5rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 110%;
+}
+
+@mixin viewsContainer {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+}

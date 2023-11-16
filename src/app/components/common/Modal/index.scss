@@ -1,0 +1,59 @@
+@import "@/index.scss";
+
+.modal-wrapper {
+    display: flex;
+    width: 27.2rem;
+    padding: 2rem;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+    background: #faf9ff;
+
+    &__description {
+        text-align: center;
+        font-size: 1.2rem;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 120%;
+        color: #666;
+    }
+
+    &__title {
+        margin: 0.8rem 0 1.2rem;
+        text-align: center;
+        font-size: 1.8rem;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 120%;
+        color: $mainBlackColor;
+    }
+
+    &__container {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    &__btn {
+        padding: 1.4rem 0;
+        width: 50%;
+        border-radius: 10rem;
+        border: 0.1px solid  #d2cfdf;
+        text-align: center;
+        font-size: 1.6rem;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 120%;
+        background: $mainWhiteColor;
+        color: $mainBlackColor;
+
+        &:first-child {
+            margin-right: 1.2rem;
+        }
+
+        &:hover {
+            border: 0.1rem solid $darkBlueColor;
+        }
+    }
+}
