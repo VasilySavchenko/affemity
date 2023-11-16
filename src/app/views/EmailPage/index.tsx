@@ -6,7 +6,7 @@ import Header from "@components/common/Header";
 
 import privacy from "@static/images/others/privacy.svg";
 
-import useEmailValidation from "@/app/halpers/hook/useEmailValidation";
+import useEmailValidation from "@/app/helpers/hook/useEmailValidation";
 
 import "./index.scss"
 
