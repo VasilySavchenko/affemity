@@ -48,7 +48,7 @@ const QuestionsPage = () => {
 				<h2>What would you like<br/> to learn?</h2>
 				<p>Select all that apply</p>
 			</div>
-			<div className="questions__block">
+			<div className="questions__block questions-wrapper">
 						{
 							QUESTIONS_DATA.map((item,index) =>
 								<CustomCheckbox
